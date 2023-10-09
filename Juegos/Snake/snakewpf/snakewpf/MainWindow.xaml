@@ -1,0 +1,22 @@
+﻿<Window x:Class="snakewpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:snakewpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="540.263" Width="984.21" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Border x:Name="bordeCanvas" BorderBrush="Black" HorizontalAlignment="Left" Height="420" Margin="10,10,0,0" VerticalAlignment="Top" Width="950">
+            <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="420" Margin="10,10,0,0" VerticalAlignment="Top" Width="950"/>
+        </Border>
+        <Label x:Name="label1" Content="Puntos:" HorizontalAlignment="Left" Margin="222,453,0,0" VerticalAlignment="Top" FontSize="22" Height="39" Width="82"/>
+        <Label x:Name="puntaje" Content="0" HorizontalAlignment="Left" Margin="309,456,0,0" VerticalAlignment="Top" FontSize="22" Height="39" Width="60"/>
+        <Button x:Name="playpause" Content="Pausar" HorizontalAlignment="Left" Margin="437,456,0,0" VerticalAlignment="Top" Width="130" FontSize="22" Height="33" Click="playpause_Click"/>
+
+    </Grid>
+</Window>

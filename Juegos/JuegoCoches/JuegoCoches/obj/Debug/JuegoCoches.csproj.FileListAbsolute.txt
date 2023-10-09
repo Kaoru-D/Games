@@ -1,0 +1,11 @@
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\bin\Debug\JuegoCoches.exe.config
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\bin\Debug\JuegoCoches.exe
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\bin\Debug\JuegoCoches.pdb
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.csprojAssemblyReference.cache
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.Form1.resources
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.Properties.Resources.resources
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.csproj.GenerateResource.cache
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.csproj.CoreCompileInputs.cache
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.exe
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.pdb
+G:\Trabajos\Programacion I\JuegoCoches\JuegoCoches\obj\Debug\JuegoCoches.frmRegistrarUsuaario.resources
