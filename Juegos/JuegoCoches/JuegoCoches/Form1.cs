@@ -38,7 +38,7 @@ namespace JuegoCoches
         public void CrearObstaculo(List<PictureBox>ListaElementos, Form panelJuego,int distanciaUno, int distanciaDos)
         {
             int NumeroCarro = 1;
-            int TipoObtaculo = RnObstaculo.Next(1, 2);
+            int TipoObtaculo = RnObstaculo.Next(1, 3);
             int UbicacionObstaculo = RnObstaculo.Next(1, 3);
 
             int DistanciaUbicacionObstaculo = (UbicacionObstaculo == 1) ? distanciaUno : distanciaDos;
@@ -87,7 +87,7 @@ namespace JuegoCoches
 
             if (ListaObstaculos.Count>0)
             {
-                for (int i = 0; i < ListaObstaculos.Count; i++)
+                for (int i = ListaObstaculos.Count -1; i >=0; i--)
                 {
                     if (ListaObstaculos[i].Location.Y>500)
                     {
@@ -98,7 +98,7 @@ namespace JuegoCoches
                         this.Controls.Remove(ListaObstaculos[i]);
                         ListaObstaculos.Remove(ListaObstaculos[i]);
                     }
-                    if (ListaObstaculos[i].Bounds.IntersectsWith(pcCarro.Bounds))
+                    else if (ListaObstaculos[i].Bounds.IntersectsWith(pcCarro.Bounds))
                     {
                         if (ListaObstaculos[i].Tag.ToString()=="1_1")
                         {
